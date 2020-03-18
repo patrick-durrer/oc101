@@ -1,0 +1,6 @@
+*
+!.gitignore
+!themes
+!themes/**/*
+themes/**/node_modules
+!plugins

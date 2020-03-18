@@ -1,0 +1,28 @@
+title = "Mitglieder"
+url = "/mitglieder"
+layout = "default"
+is_hidden = 0
+==
+
+<h1 class="text-4xl mb-6">Ausbildungsbetriebe</h1>
+<div class="mb-8">
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+        labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+    </p>
+</div>
+<div class="flex flex-col">
+    {% for i in 1..10 %}
+        <a href="https://www.css.ch/de/home/ueber_uns/karriere_jobs/berufsbildung.html" target="_blank"
+           class="flex items-center p-2 border hover:shadow rounded mb-2" content="noindex, nofollow">
+            <div class="mr-12 w-32 h-24">
+                <img src="https://picsum.photos/300/200" class="max-w-full h-full" alt="Logo von CSS"/>
+            </div>
+            <div>
+                <h2 class="font-bold text-teal-600">CSS Kranken-Versicherung AG</h2>
+                <p>Luzern / Lausanne / Breganzona</p>
+            </div>
+        </a>
+    {% endfor %}
+</div>
