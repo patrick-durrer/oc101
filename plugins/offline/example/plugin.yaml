@@ -1,0 +1,6 @@
+plugin:
+    name: 'offline.example::lang.plugin.name'
+    description: 'offline.example::lang.plugin.description'
+    author: OFFLINE
+    icon: oc-icon-stack-overflow
+    homepage: ''

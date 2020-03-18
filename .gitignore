@@ -4,3 +4,8 @@
 !themes/**/*
 themes/**/node_modules
 !plugins
+
+# offline.example
+!plugins/OFFLINE
+!plugins/OFFLINE/example
+!plugins/OFFLINE/example/**/*
