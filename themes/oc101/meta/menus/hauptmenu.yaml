@@ -1,0 +1,24 @@
+items:
+    -
+        title: Startseite
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: startseite
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Mitglieder
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: mitglieder
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: Mainmenu
