@@ -3,3 +3,6 @@
 1.0.2:
     - 'Created table offline_example_entries'
     - builder_table_create_offline_example_entries.php
+1.0.3:
+    - 'Updated table offline_example_entries'
+    - builder_table_update_offline_example_entries.php
